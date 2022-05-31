@@ -1,10 +1,21 @@
 # Activities-and-intents
+Two Activities
+
+Create and build an app called Two Activities that, unsurprisingly, contains two Activity implementations. You build the app in three stages.
+
+In the first stage, you create an app whose main activity contains one button, Send. When the user clicks this button, your main activity uses an intent to start the second activity.
+
+In the second stage, you add an EditText view to the main activity. The user enters a message and clicks Send. The main activity uses an intent to start the second activity and send the user's message to the second activity. The second activity displays the message it received.
+
+In the final stage of creating the Two Activities app, you add an EditText and a Reply button to the second activity. The user can now type a reply message and tap Reply, and the reply is displayed on the main activity. At this point, you use an intent to pass the reply back from the second activity to the main activity.<br><br>
 <img src="/Screenshots/two activities.gif" width="190" height="350"/>
 <br>
 <b>Challenge</b><br>
+An app with three Button elements labeled Text One, Text Two, and Text Three. When any of these Button elements are clicked, launch a second Activity. That second Activity contain a ScrollView that displays one of three text passages. An Intent to launch the second Activity with extras to indicate which of the three passages to display.<br><br>
 <img src="/Screenshots/two activities_c.gif" width="190" height="350"/>
 <br>
 <b>Homework</b><br>
+Modify the Toast button so that it launches a new Activity to display the word "Hello!" and the current count. Change the text on the Toast button to Say Hello.<br><br>
 <img src="/Screenshots/two activities_h.gif" width="190" height="350"/>
 
 Question 1
